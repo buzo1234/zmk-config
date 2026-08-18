@@ -1,0 +1,6 @@
+if SHIELD_PIANTOR_PICO2_LEFT_TEST
+
+config ZMK_KEYBOARD_NAME
+    default "Piantor Left Test"
+
+endif
