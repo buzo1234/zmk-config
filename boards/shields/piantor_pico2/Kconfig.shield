@@ -1,3 +1,7 @@
 config SHIELD_PIANTOR_PICO2_LEFT_TEST
     def_bool $(shields_list_contains,piantor_pico2_left_test)
     select ZMK_BOARD_COMPAT
+
+config SHIELD_PIANTOR_PICO2_RIGHT_TEST
+    def_bool $(shields_list_contains,piantor_pico2_right_test)
+    select ZMK_BOARD_COMPAT

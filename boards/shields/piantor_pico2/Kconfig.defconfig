@@ -4,3 +4,10 @@ config ZMK_KEYBOARD_NAME
     default "Piantor Left Test"
 
 endif
+
+if SHIELD_PIANTOR_PICO2_RIGHT_TEST
+
+config ZMK_KEYBOARD_NAME
+    default "Piantor R Test"
+
+endif
