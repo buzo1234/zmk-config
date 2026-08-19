@@ -25,7 +25,7 @@
                 &kp LEFT_CONTROL    &kp Z             &kp X          &kp C          &kp V          &kp B
                 &kp N             &kp M             &kp COMMA      &kp DOT        &kp SLASH      &kp RIGHT_SHIFT
 
-                &lt FUN LEFT_ALT  &lt NAV BACKSPACE &lt NUM SPACE
+                &lt FUN LEFT_ALT  &lt NAV LEFT_GUI &lt NUM SPACE
                 &lt MOUSE SPACE   &lt SYM ENTER     &kp RIGHT_ALT
             >;
         };
