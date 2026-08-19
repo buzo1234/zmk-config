@@ -1,7 +1,7 @@
 include:
   - board: rpi_pico2/rp2350a/m33
-    shield: piantor_pico2_left_test
-    artifact-name: piantor_pico2_left_test
+    shield: piantor_pico2_left
+    artifact-name: piantor_pico2_left
   - board: rpi_pico2/rp2350a/m33
-    shield: piantor_pico2_right_test
-    artifact-name: piantor_pico2_right_test
+    shield: piantor_pico2_right
+    artifact-name: piantor_pico2_right

@@ -1,13 +1,26 @@
-if SHIELD_PIANTOR_PICO2_LEFT_TEST
+if SHIELD_PIANTOR_PICO2_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Piantor Left Test"
+    default "Piantor Pico2"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_USB
+    default y
 
 endif
 
-if SHIELD_PIANTOR_PICO2_RIGHT_TEST
+if SHIELD_PIANTOR_PICO2_RIGHT
 
-config ZMK_KEYBOARD_NAME
-    default "Piantor R Test"
+config ZMK_USB
+    default n
+
+endif
+
+if SHIELD_PIANTOR_PICO2_LEFT || SHIELD_PIANTOR_PICO2_RIGHT
+
+config ZMK_SPLIT
+    default y
 
 endif
