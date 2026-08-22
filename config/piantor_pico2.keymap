@@ -3,11 +3,10 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
-#define NAV  1
-#define NUM  2
-#define SYM  3
-#define FUN  4
-#define MOUSE 5
+#define NUM  1
+#define SYM  2
+#define FUN  3
+#define MOUSE 4
 
 / {
     keymap {
@@ -25,25 +24,8 @@
                 &kp LEFT_SHIFT    &kp Z             &kp X          &kp C          &kp V          &kp B
                 &kp N             &kp M             &kp COMMA      &kp DOT        &kp SLASH      &kp RIGHT_SHIFT
 
-                &kp LEFT_ALT      &lt NAV LEFT_GUI  &lt NUM BACKSPACE
+                &kp LEFT_ALT      &kp LEFT_GUI      &lt NUM BACKSPACE
                 &lt SYM SPACE     &lt MOUSE ENTER   &lt FUN RIGHT_ALT
-            >;
-        };
-
-        navigation {
-            display-name = "Navigation";
-            bindings = <
-                &kp ESCAPE        &kp TAB       &kp HOME         &kp UP        &kp END       &kp PAGE_UP
-                &kp HOME          &kp C_PREVIOUS &kp C_PLAY_PAUSE      &kp C_NEXT       &kp C_VOL_UP    &kp DELETE
-
-                &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI     &kp LEFT_SHIFT &kp CAPSLOCK &kp PAGE_DOWN
-                &kp LEFT          &kp DOWN      &kp UP           &kp RIGHT     &kp C_VOL_DN &kp DELETE
-
-                &kp ESCAPE        &kp TAB       &kp PRINTSCREEN  &kp INSERT    &kp DELETE    &kp BACKSPACE
-                &kp C_PREVIOUS    &kp C_VOL_DN  &kp C_PLAY_PAUSE &kp C_VOL_UP  &kp C_MUTE    &kp C_MUTE
-
-                &trans            &trans        &trans
-                &trans            &trans        &trans
             >;
         };
 
@@ -54,7 +36,7 @@
                 &kp NUMBER_7      &kp NUMBER_8         &kp NUMBER_9          &kp NUMBER_0      &kp MINUS         &kp EQUAL
 
                 &kp GRAVE         &trans               &trans                &trans            &trans            &trans
-                &trans            &trans               &trans                &trans            &trans            &trans
+                &kp LEFT          &kp DOWN             &kp UP                &kp RIGHT         &trans            &trans
 
                 &trans            &trans               &trans                &trans            &trans            &trans
                 &trans            &trans               &trans                &trans            &trans            &trans

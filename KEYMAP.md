@@ -2,10 +2,10 @@
 
 The production firmware is a wired, full-duplex ZMK split. The left half is the only central and the only half intended to connect to the host over USB. The right half is a peripheral.
 
-The four middle thumb keys are layer-taps: tap for their normal key and hold for the named layer.
+Four thumb keys are layer-taps: tap for their normal key and hold for the named layer.
 
 ```text
-Left Alt | GUI/Navigation | Backspace/Numbers     Space/Symbols | Enter/Mouse | Right Alt/Function
+Left Alt | GUI | Backspace/Numbers     Space/Symbols | Enter/Mouse | Right Alt/Function
 ```
 
 ## Base
@@ -17,17 +17,13 @@ Shift Z X C V B        N M , . / Shift
           Alt GUI Backspace    Space Enter Alt
 ```
 
-## Navigation
-
-Navigation keys, editing keys, modifiers, screenshots, and media controls. The arrows are on the right home row in an inverted-T arrangement.
-
 ## Numbers
 
-The top row follows the same left-to-right order as a Mac keyboard. Grave is on the far-left home position. Other keys are transparent and retain their Base behavior.
+The top row follows the same left-to-right order as a Mac keyboard. Grave is on the far-left home position, and `H/J/K/L` provide left/down/up/right arrows. Other keys are transparent and retain their Base behavior.
 
 ```text
 1 2 3 4 5 6        7 8 9 0 - =
-` · · · · ·        · · · · · ·
+` · · · · ·        ← ↓ ↑ → · ·
 · · · · · ·        · · · · · ·
 ```
 
